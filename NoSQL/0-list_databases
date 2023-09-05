@@ -1,0 +1,4 @@
+#!/usr/bin/env python3
+"""Script that lists all databases in MongoDB"""
+
+show dbs;
