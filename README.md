@@ -7,3 +7,5 @@
 ### [python_async_function](https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/tree/master/python_async_function)
 
 ### [python_async_comprehension](https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/tree/master/python_async_comprehension)
+
+### [NoSQL](https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/tree/master/NoSQL)
