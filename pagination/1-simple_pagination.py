@@ -36,6 +36,7 @@ class Server:
         self.dataset()
         return self.__dataset[pagination_indexes[0]: pagination_indexes[1]]
 
+
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
     """Return a tuple of size two containing a start index and an end index
     """
