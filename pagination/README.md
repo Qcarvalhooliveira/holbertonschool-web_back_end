@@ -1,6 +1,6 @@
-# **Pagination**
+# **Pagination** :computer:
 
-## **Description**:speech_balloon:
+## **Description** :speech_balloon:
 
 * Pagination in programming refers to the process of dividing a large set of data into smaller, more manageable chunks or pages. This is commonly used in applications and websites that display lists of information, such as search results, product listings, or social media feeds, where showing all the data at once would be impractical and overwhelming.
 
