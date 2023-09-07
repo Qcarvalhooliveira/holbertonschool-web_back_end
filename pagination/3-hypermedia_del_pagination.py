@@ -42,4 +42,22 @@ class Server:
     def get_hyper_index(self, index: int = None, page_size: int = 10) -> Dict:
         """Returns a dictionary containing the following key-value pairs
         """
-        pass
+        dataset_length = len(self.dataset())
+        assert (
+                index is None or
+                0 <= index < dataset_length), "Index out of range"
+
+        next_index = index + page_size
+        if index is not None:
+            for i in range(index, next_index):
+                if i in self.__indexed_dataset:
+                    next_index += 1
+
+        data = [self.__indexed_dataset[i] for i in range(index, next_index)
+                if i in self.__indexed_dataset]
+
+        return {
+                "index": index,
+                "next_index": next_index,
+                "page_size": page_size,
+                "data": data}
