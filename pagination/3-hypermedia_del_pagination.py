@@ -50,7 +50,7 @@ class Server:
         next_index = index + page_size
         if index is not None:
             for i in range(index, next_index):
-                if i in self.__indexed_dataset:
+                if i not in self.__indexed_dataset:
                     next_index += 1
 
         data = [self.__indexed_dataset[i] for i in range(index, next_index)
