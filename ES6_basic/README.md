@@ -6,6 +6,20 @@
 Let and Const, Arrow Functions, Template Literals, Destructuring, Spread and Rest Operators, Classes, Modules, Promises, New Array Methods and New Data Types.
 These ES6 basics form the foundation for modern JavaScript development and have greatly improved code readability, maintainability, and functionality.
 
+
+## **What we should learn from this project:** :bookmark_tabs:
+
+* What ES6 is
+* New features introduced in ES6
+* The difference between a constant and a variable
+* Block-scoped variables
+* Arrow functions and function parameters default to them
+* Rest and spread function parameters
+* String templating in ES6
+* Object creation and their properties in ES6
+* Iterators and for-of loops
+
+
 ## **Tasks:** :books:
 
 #### **0. Const or let?**
