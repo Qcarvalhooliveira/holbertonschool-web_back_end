@@ -29,7 +29,10 @@ class StudentHolberton {
   }
 
   get fullStudentDescription() {
-    return `${this._firstName} ${this._lastName} - ${this._holbertonClass.year} - ${this._holbertonClass.location}`;
+    if (this._holbertonClass instanceof HolbertonClass) {
+      return `${this._firstName} ${this._lastName} - ${this._holbertonClass.year} - ${this._holbertonClass.location}`;
+    }
+    return `${this._firstName} ${this._lastName} - HolbertonClass not properly initialized`;
   }
 }
 
