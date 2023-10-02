@@ -15,3 +15,5 @@
 ### [ES6_basic](https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/tree/master/ES6_basic)
 
 ### [ES6_classes](https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/tree/master/ES6_classes)
+
+### [ES6_promise](https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/tree/master/ES6_promise)
