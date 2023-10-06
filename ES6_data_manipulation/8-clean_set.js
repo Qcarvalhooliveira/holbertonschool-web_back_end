@@ -4,13 +4,9 @@ export default function cleanSet(set, startString) {
   if (typeof startString !== 'string' || typeof set !== 'object' || startString.length === 0) {
     return '';
   }
-  
-  set.forEach((value) => {
-    if (value.startsWith(startString)) {
-      const restOfString = value.slice(startString.length);
-      result.push(restOfString);
-    }
-  });
 
+  for (const item of set) {
+    result.push(item.slice(startString.length));
+  }
   return result.join('-');
 }
