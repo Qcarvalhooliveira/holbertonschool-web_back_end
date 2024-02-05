@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/blob/master/python_variable_annotations/image/Python.png"  width="1000" height="600">
+
 # **Python - Variable Annotations** :computer:
 
 ## **Description:** :speech_balloon:
