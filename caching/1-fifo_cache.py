@@ -23,7 +23,6 @@ class FIFOCache(BaseCaching):
             if key not in self.keys_order:
                 self.keys_order.append(key)
 
-
             if len(self.cache_data) > BaseCaching.MAX_ITEMS:
                 first_key = self.keys_order.pop(0)
                 del self.cache_data[first_key]
