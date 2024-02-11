@@ -1,4 +1,6 @@
-<img src="https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/blob/master/caching/image/caching.png">
+<p align="center">
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/blob/master/caching/image/caching.png" alt="caching">
+<p>
 
 # **Caching** :computer:
 
