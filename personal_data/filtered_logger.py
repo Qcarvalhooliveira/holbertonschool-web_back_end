@@ -75,3 +75,22 @@ def get_db() -> mysql.connector.connection.MySQLConnection:
     )
 
     return connection
+
+def main():
+    """ Function that takes no arguments and returns nothing
+    """
+    db_connection = get_db()
+    cursor = db_connection.cursor()
+    cursor.execute("SELECT * FROM users;")
+    logger = get_logger()
+
+    for row in cursor:
+        row_str = f"name={row[0]}; email={row[1]}; phone={row[2]}; ssn={row[3]}; password={row[4]};"
+        logger.info(row_str)
+
+    cursor.close()
+    db_connection.close()
+
+
+if __name__ == '__main__':
+    main()
