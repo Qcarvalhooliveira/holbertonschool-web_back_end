@@ -58,6 +58,7 @@ def get_logger() -> logging.Logger:
 
     return logger
 
+
 def get_db() -> mysql.connector.connection.MySQLConnection:
     """ Function that returns a connector to the database.
     """
@@ -72,5 +73,5 @@ def get_db() -> mysql.connector.connection.MySQLConnection:
         host=db_host,
         database=db_name
     )
-    
+
     return connection
