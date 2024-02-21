@@ -23,3 +23,5 @@
 ### [Caching](https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/tree/master/caching)
 
 ### [Personal data](https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/tree/master/personal_data)
+
+### [Basic Authentication](https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/tree/master/Basic_authentication)
