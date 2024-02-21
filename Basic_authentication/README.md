@@ -1,4 +1,4 @@
-<ima src="https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/blob/master/Basic_authentication/image/Basic_authentication.png"  width="1000" height="300">
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/blob/master/Basic_authentication/image/Basic_authentication.png"  width="1000" height="300">
 
 # **Basic authentication** :computer:
 
