@@ -5,7 +5,7 @@ Authentication module for the API
 
 from api.v1.auth.auth import Auth
 import base64
-from typing import TypeVar,  Optional
+from typing import TypeVar
 from models.user import User
 
 
