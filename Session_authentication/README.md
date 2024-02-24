@@ -1,4 +1,6 @@
-# **Session authentication** :computer:
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/blob/master/Session_authentication/image/session_authentication.png" width="1000" height="300">
+
+# **Session Authentication** :computer:
 
 ## **Description** :speech_balloon:
 

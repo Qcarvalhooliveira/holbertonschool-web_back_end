@@ -25,3 +25,5 @@
 ### [Personal data](https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/tree/master/personal_data)
 
 ### [Basic Authentication](https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/tree/master/Basic_authentication)
+
+### [Session Authentication](https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/tree/master/Session_authentication)
