@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/blob/master/user_authentication_service/image/user-authentication.png" width="1000" height="300">
+
 # **User authentication service** :computer:
 
 ## **Description:** :speech_balloon:
