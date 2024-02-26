@@ -54,7 +54,7 @@ class DB:
         except InvalidRequestError:
             raise InvalidRequestError("Invalid query parameters.")
 
-    def update_user(self, user_id: int, **kwargs):
+    def update_user(self, user_id: int, **kwargs) -> None:
         """ Takes as argument a required user_id integer and
             arbitrary keyword arguments, and returns None.
         """
