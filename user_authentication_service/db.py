@@ -55,7 +55,7 @@ class DB:
             raise InvalidRequestError("Invalid query parameters.")
 
     def update_user(self, user_id: int, **kwargs):
-        """ takes as argument a required user_id integer and
+        """ Takes as argument a required user_id integer and
             arbitrary keyword arguments, and returns None.
         """
         user = self.find_user_by(id=user_id)
