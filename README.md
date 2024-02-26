@@ -27,3 +27,5 @@
 ### [Basic Authentication](https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/tree/master/Basic_authentication)
 
 ### [Session Authentication](https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/tree/master/Session_authentication)
+
+### [User authentication service](https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/tree/master/user_authentication_service)
