@@ -30,13 +30,11 @@ class Auth:
         """ Registers a user with a given email and password.
         """
         try:
-            user = self._db.find_user_by(email=email)
-            if user:
+            existing_user = self._db.find_user_by(email=email)
+            if existing_user:
                 raise ValueError("User {} already exists".format(email))
 
         except NoResultFound:
             hashed_password = _hash_password(password)
-            return self._db.add_user(email, hashed_password)
-            
-
-
+            new_user = self._db.add_user(email, hashed_password)
+            return new_user
