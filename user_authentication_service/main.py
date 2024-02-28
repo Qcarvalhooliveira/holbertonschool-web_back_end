@@ -8,15 +8,17 @@ email = 'me@me.com'
 password = 'mySecuredPwd'
 
 auth = Auth()
+#!/usr/bin/env python3
+"""
+Main file
+"""
+from auth import Auth
 
-try:
-    user = auth.register_user(email, password)
-    print("successfully created a new user!")
-except ValueError as err:
-    print("could not create a new user: {}".format(err))
+email = 'bob@bob.com'
+password = 'MyPwdOfBob'
+auth = Auth()
 
-try:
-    user = auth.register_user(email, password)
-    print("successfully created a new user!")
-except ValueError as err:
-    print("could not create a new user: {}".format(err))      
+auth.register_user(email, password)
+
+print(auth.create_session(email))
+print(auth.create_session("unknown@email.com"))
