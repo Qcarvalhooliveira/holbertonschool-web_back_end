@@ -98,7 +98,7 @@ class Auth:
 
         try:
             user = self._db.find_user_by(email=email)
-            self._db.update_token(user.id, token=token)
+            self._db.update_user(user.id, reset_token=token)
             return token
 
         except NoResultFound:
