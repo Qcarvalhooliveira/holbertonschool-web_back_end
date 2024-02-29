@@ -81,7 +81,7 @@ def profile():
 
 
 @app.route("/reset_password route", methods=['POST'], strict_slashes=False)
-def get_reset_password_token():
+def get_reset_password_token() -> str:
     """ Endpoint to generate a password reset token for a user.
     """
     email = request.form.get('email')
