@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/blob/master/Unittests_and_integration_tests/image/Unit-Test-vs-Integration-Test_.jpg" width="1000" height="300">
+
 # **Unittests and Integration Tests** :computer:
 
 ## **Description:** :speech_balloon:
