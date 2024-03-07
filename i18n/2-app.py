@@ -3,7 +3,7 @@
 """
 
 from flask import Flask, render_template, request
-from flask_babel import Babel, gettext
+from flask_babel import Babel
 
 
 app = Flask(__name__)
@@ -31,7 +31,7 @@ def welcome() -> str:
 @babel.localeselector
 def get_locale() -> str:
     """Select the best match language."""
-    return request.accept_languages.best_match(app.config['LANGUAGES'])
+    return request.accept_languages.best_match(["en", "fr"])
 
 
 if __name__ == "__main__":
