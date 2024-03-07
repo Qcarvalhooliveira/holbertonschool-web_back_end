@@ -55,6 +55,7 @@ def get_user():
         return users.get(user_id)
     return None
 
+
 @app.before_request
 def before_request():
     """"Sets the global user before each request.
