@@ -33,3 +33,5 @@
 ### [Unittests and Integration Tests](https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/tree/master/Unittests_and_integration_tests)
 
 ### [i18n](https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/tree/master/i18n)
+
+### [Redis basic](https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/tree/master/0x0B_redis_basic)
