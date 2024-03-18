@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/blob/master/0x0B_redis_basic/image/redis.png" width="1000" height="300">
+
 # **Redis Basic** :computer:
 
 ## **Description** :speech_balloon:
