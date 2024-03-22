@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/blob/master/MySQL_Advanced/image/MySQL_Advanced.png" width="1000" height="300">
+
 # **MySQL_Advanced** :computer:
 
 ## **Description** :speech_balloon:
