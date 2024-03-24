@@ -27,7 +27,7 @@ async function countStudents(database) {
 
     console.log(`Number of students: ${studentObjects.length}`);
     for (const field in StudentGroup) {
-      if (Object.prototype.hasOwnProperty.call(StudentGroup, field)) { // Modificação aqui.
+      if (Object.prototype.hasOwnProperty.call(StudentGroup, field)) {
         console.log(`Number of students in ${field}: ${StudentGroup[field].length}. List: ${StudentGroup[field].join(', ')}`);
       }
     }
