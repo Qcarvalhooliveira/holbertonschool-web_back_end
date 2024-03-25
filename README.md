@@ -40,4 +40,4 @@
 
 ### [NodeJS Basics](https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/tree/master/Node_JS_basic)
 
-### [Unittests in JS](https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/tree/master/Unittests%20in%20JS)
+### [Unittests in JS](https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/tree/master/unittests_in_js)

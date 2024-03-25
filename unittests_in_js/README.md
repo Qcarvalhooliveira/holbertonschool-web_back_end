@@ -1,4 +1,4 @@
-<img src="https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/blob/master/Unittests%20in%20JS/image/Unittests.png" width="1000" height="300">
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/blob/master/unittests_in_js/image/Unittests.png" width="1000" height="300">
 
 # **Unittests in JS** :computer:
 
