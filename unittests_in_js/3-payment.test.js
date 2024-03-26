@@ -5,13 +5,15 @@ const Utils = require('./utils');
 
 describe('sendPaymentRequestToApi', function() {
     it('should call calculateNumber with "SUM", totalAmount, and totalShipping', function() {
-        const spy = sinon.spy(Utils, 'calculateNumber');
+        const spyUtils = sinon.spy(Utils, 'calculateNumber');
+        const spyConsole = sinon.spy(console, 'log');
 
         sendPaymentRequestToApi(100, 20);
 
-        expect(spy.calledOnce).to.be.true;
-        expect(spy.calledWith('SUM', 100, 20)).to.be.true;
+        expect(spyUtils.calledOnceWithExactly('SUM', 100, 20)).to.be.true;
+        expect(spyConsole.calledOnceWithExactly('The total is: 120')).to.be.true;
 
-        spy.restore();
+        spyUtils.restore();
+        spyConsole.restore();
     });
 });
