@@ -10,6 +10,7 @@ describe('sendPaymentRequestToApi', function() {
 
         sendPaymentRequestToApi(100, 20);
 
+        expect(spyUtils.calledOnce).to.be.true;
         expect(spyUtils.calledWith('SUM', 100, 20)).to.be.true;
         expect(spyConsole.calledWith('The total is: 120')).to.be.true;
 
