@@ -9,5 +9,6 @@ describe('Test the calculateNumber sum', function() {
         assert.strictEqual(calculateNumber(1.5, 3.7), 6);
         assert.strictEqual(calculateNumber(-1.6, 3.6), 2);
         assert.strictEqual(calculateNumber(-4.6, 3), -2);
+        assert.strictEqual(calculateNumber(-1.6, -3.2), -5);
     });
 });
