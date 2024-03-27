@@ -49,20 +49,20 @@ describe('/available_payments endpoint', () => {
 
 describe('/login endpoint', () => {
   it('welcomes the user by username', (done) => {
-    request.post(
-      {
+    const options = {
+      method: 'POST',
       url: 'http://localhost:7865/login',
-      form: {
-        userName: 'Betty',
+      headers: {
+        'Content-Type': 'application/json',
       },
-    },
+      body: JSON.stringify({ userName: 'Betty' })
+    };
 
-    (err, res, text) => {
+    request(options, (err, res, body) => {
       expect(err).to.be.null;
       expect(res.statusCode).to.equal(200);
-      expect(text).to.equal('Welcome Betty');
+      expect(body).to.equal('Welcome Betty');
       done();
     });
   });
 });
-
