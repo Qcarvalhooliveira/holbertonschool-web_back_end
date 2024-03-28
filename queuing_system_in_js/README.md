@@ -1,3 +1,5 @@
+<img src="https://github.com/Qcarvalhooliveira/holbertonschool-web_back_end/blob/master/queuing_system_in_js/image/Queuing%20System%20in%20JS.png" width="1000" height="300">
+
 # **Queuing System in JS** :computer:
 
 ## **Description:** :speech_balloon:
